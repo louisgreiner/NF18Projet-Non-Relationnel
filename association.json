@@ -86,5 +86,34 @@
                 }
             }
         ]
+    }, 
+    { 
+        "nom": "PianUt",
+        "description": "Cercle des pianistes disparus", 
+        "catégorie": "Musique",
+        "email": "pianut@asso.utc.fr",
+        "dateCréation": "1997-01-01",
+        "siteWeb": "https://assos.utc.fr/pianut/",
+        "président": 
+        { 
+            "id": 3, 
+            "prenom": "Léna", 
+            "nom": "Baillet",
+            "type" : "etudiant",
+            "attributs_herites" : {
+                "numCIN" : 122
+            }
+        },
+        "trésorier": 
+        { 
+            "id": 4, 
+            "prenom": "Benjamin", 
+            "nom": "Missaoui",
+            "type" : "etudiant",
+            "attributs_herites" : {
+                "numCIN" : 750
+            }
+        },
+        "membres": []
     }
 ]
