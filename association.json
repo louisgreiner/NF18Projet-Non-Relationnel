@@ -55,16 +55,34 @@
         "email": "etuville@asso.utc.fr",
         "dateCréation": "2005-01-01",
         "siteWeb": "https://assos.utc.fr/etuville/",
-        "président": "zedf",
-        "trésorier": "qsdfg",
+        "président": 
+        { 
+            "id": 1, 
+            "prenom": "Louis", 
+            "nom": "Greiner",
+            "type" : "etudiant",
+            "attributs_herites" : {
+                "numCIN" : 234
+            }
+        },
+        "trésorier": 
+        { 
+            "id": 4, 
+            "prenom": "Benjamin", 
+            "nom": "Missaoui",
+            "type" : "etudiant",
+            "attributs_herites" : {
+                "numCIN" : 750
+            }
+        },
         "membres": [
             { 
-                "id": 4, 
-                "prenom": "Benjamin", 
-                "nom": "Missaoui",
+                "id": 3, 
+                "prenom": "Léna", 
+                "nom": "Baillet",
                 "type" : "etudiant",
                 "attributs_herites" : {
-                    "numCIN" : 750
+                    "numCIN" : 122
                 }
             }
         ]
