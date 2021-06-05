@@ -10,7 +10,7 @@
             { 
                 "id": 2, 
                 "prenom": "Rodolphe", 
-                "nom": "Greiner",
+                "nom": "Olsommer",
                 "type" : "etudiant",
                 "attributs_herites" : {
                     "numCIN" : 512
