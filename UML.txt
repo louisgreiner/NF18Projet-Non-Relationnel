@@ -1,0 +1,107 @@
+@startuml
+top to bottom direction
+
+class Association{
+  nom: text {key}
+  description: text
+  catégorie: text
+  mail: text {unique}
+  dateCréation: date
+  siteWeb: text {nullable}
+}
+
+abstract class Personne{
+  nom: text
+  prenom: text
+}
+
+class Etudiant extends Personne{
+  numéroCIN: integer {key}
+}
+
+class Personnel extends Personne{
+  numéroCIN: integer{key}
+  statut : {enseignant, administratif, technique}
+}
+
+class Extérieur extends Personne{
+  organisme: text
+  contact: text {key}
+}
+
+abstract class Spectacle{
+  durée: time
+}
+
+class Concert extends Spectacle{
+  compositeur: text
+  annéeParution: date
+  genre: text
+}
+
+class Théâtre extends Spectacle{
+  auteur: text
+  annéeParution: date
+  type: text
+}
+
+class Stand-up extends Spectacle{
+  genre: text
+}
+
+class Compose{
+  statut: {président / trésorier / membre}
+}
+note bottom: Il faut un unique président\net un unique trésorier
+
+class Salle{
+  numéro: text {key}
+  type: {cours / amphitheatre / bureau}
+  capacité: integer
+}
+
+class Réserve{
+  date: date
+  heure: time
+}
+
+class "Participe" as participe_etu{
+  role: text
+}
+
+class "Participe" as participe_personnel{
+  role: text
+}
+
+class Séance{
+  date: date
+  horaireDébut: time
+}
+note bottom: On fera attention à ne pas se faire\nchevaucher deux séances, grâce à leur durée
+
+class Billet{
+  dateCréation: date
+  tarif: decimal
+}
+note top: Une méthode de la couche applicative permettra\nde calculer le nombre de billets vendus par catégorie
+
+class Catégorie{
+  typeBillet: text
+}
+
+Salle "1" -- "*" Séance: a lieu <
+Association "1" -- "1..*" Spectacle: organise >
+Séance "*" -u- "1" Spectacle: est tenu <
+Billet "*" -l- "1" Séance: se réfère >
+Billet "*" -- "1" Personne: achète <
+Etudiant "2..*" -- "*" Association
+Association "*" -- "1" Salle
+Etudiant "*" -- "*" Spectacle
+Personnel "*" -- "*" Spectacle
+
+(Association, Salle) .. Réserve
+(Association, Etudiant) .. Compose
+(Spectacle, Etudiant) .. participe_etu
+(Spectacle, Personnel) .. participe_personnel
+(Séance, Billet)..Catégorie
+@enduml
