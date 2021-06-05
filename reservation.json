@@ -72,36 +72,37 @@
                 "dateCreation": "2005-01-01",
                 "siteWeb": "https://assos.utc.fr/etuville/",
                 "president": 
-                { 
-                    "id": 1, 
-                    "prenom": "Louis", 
-                    "nom": "Greiner",
-                    "type" : "etudiant",
-                    "informations" : {
-                        "numCIN" : 234
-                    }
-                },
-                "tresorier": 
-                { 
-                    "id": 4, 
-                    "prenom": "Benjamin", 
-                    "nom": "Missaoui",
-                    "type" : "etudiant",
-                    "informations" : {
-                        "numCIN" : 750
-                    }
-                },
-                "membres": [
                     { 
-                        "id": 3, 
-                        "prenom": "Léna", 
-                        "nom": "Baillet",
+                        "id": 1, 
+                        "prenom": "Louis", 
+                        "nom": "Greiner",
                         "type" : "etudiant",
                         "informations" : {
-                            "numCIN" : 122
+                            "numCIN" : 234
                         }
-                    }
-                ]
+                    },
+                "tresorier": 
+                    { 
+                        "id": 4, 
+                        "prenom": "Benjamin", 
+                        "nom": "Missaoui",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 750
+                        }
+                    },
+                "membres": 
+                    [
+                        { 
+                            "id": 3, 
+                            "prenom": "Léna", 
+                            "nom": "Baillet",
+                            "type" : "etudiant",
+                            "informations" : {
+                                "numCIN" : 122
+                            }
+                        }
+                    ]
             }, 
         "salle":
            {
