@@ -3,45 +3,45 @@
         "id": 1, 
         "prenom": "Louis", 
         "nom": "Greiner",
-        "type" : "etudiant",
-        "attributs_herites" : {
-            "numCIN" : 234
+        "type": "etudiant",
+        "informations": {
+            "numCIN": 234
         }
     }, 
     { 
         "id": 2, 
         "prenom": "Rodolphe", 
         "nom": "Olsommer",
-        "type" : "etudiant",
-        "attributs_herites" : {
-            "numCIN" : 512
+        "type": "etudiant",
+        "informations": {
+            "numCIN": 512
         }
     },  
     { 
         "id": 3, 
         "prenom": "Léna", 
         "nom": "Baillet",
-        "type" : "etudiant",
-        "attributs_herites" : {
-            "numCIN" : 122
+        "type": "etudiant",
+        "informations": {
+            "numCIN": 122
         }
     }, 
     { 
         "id": 4, 
         "prenom": "Benjamin", 
         "nom": "Missaoui",
-        "type" : "etudiant",
-        "attributs_herites" : {
-            "numCIN" : 750
+        "type": "etudiant",
+        "informations": {
+            "numCIN": 750
         }
     }, 
     { 
         "id": 5, 
         "prenom": "Benjamin", 
         "nom": "Luissier",
-        "type" : "personnel",
-        "attributs_herites" : {
-            "numCIN" : 234,
+        "type": "personnel",
+        "informations": {
+            "numCIN": 234,
             "statut": "Personnel Technique"
         }
     },
@@ -49,9 +49,9 @@
         "id": 6, 
         "prenom": "Barack", 
         "nom": "Obama",
-        "type" : "extérieur",
-        "attributs_herites" : {
-            "organisme" : "Maison Blanche",
+        "type": "extérieur",
+        "informations": {
+            "organisme": "Maison Blanche",
             "contact": "0635231785"
         }
     }

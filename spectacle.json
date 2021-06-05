@@ -1,0 +1,229 @@
+[
+    { 
+        "id": 1, 
+        "duree": "01:30:00", 
+        "association":     
+            { 
+                "nom": "Data Venture", 
+                "description": "Organisation d'évènements sur le thème de la data science", 
+                "categorie": "Educatif",
+                "email": "dataventure@asso.utc.fr",
+                "dateCreation": "2017-01-01",
+                "siteWeb": "https://assos.utc.fr/dataventure/",
+                "president": 
+                    { 
+                        "id": 2, 
+                        "prenom": "Rodolphe", 
+                        "nom": "Greiner",
+                        "type": "etudiant",
+                        "informations": {
+                            "numCIN": 512
+                        }
+                    },
+                "tresorier": 
+                    { 
+                        "id": 3, 
+                        "prenom": "Léna", 
+                        "nom": "Baillet",
+                        "type": "etudiant",
+                        "informations": {
+                            "numCIN": 122
+                        }
+                    },
+                "membres": 
+                    [
+                        { 
+                            "id": 4, 
+                            "prenom": "Benjamin", 
+                            "nom": "Missaoui",
+                            "type": "etudiant",
+                            "informations": 
+                            {
+                                "numCIN": 750
+                            }
+                        },
+                        { 
+                            "id": 1, 
+                            "prenom": "Louis", 
+                            "nom": "Greiner",
+                            "type": "etudiant",
+                            "informations": {
+                                "numCIN": 234
+                            }
+                        }
+                    ]
+            }, 
+        "type": "Stand-Up",
+        "informations": 
+            {
+                "genre": "Table Ronde"
+            },
+        "participants": 
+            [
+                {
+                    "role": "Equilibriste",
+                    "personne":     
+                        { 
+                            "id": 4, 
+                            "prenom": "Benjamin", 
+                            "nom": "Missaoui",
+                            "type": "etudiant",
+                            "informations": {
+                                "numCIN": 750
+                            }
+                        }
+                },
+                {
+                    "role": "Jongleur",
+                    "personne":     
+                        { 
+                            "id": 3, 
+                            "prenom": "Léna", 
+                            "nom": "Baillet",
+                            "type": "etudiant",
+                            "informations": {
+                                "numCIN": 122
+                            }
+                        }
+                }
+            ]
+    },
+    { 
+        "id": 2, 
+        "duree": "00:45:00", 
+        "association":     
+            { 
+                "nom": "PianUt",
+                "description": "Cercle des pianistes disparus", 
+                "categorie": "Musique",
+                "email": "pianut@asso.utc.fr",
+                "dateCreation": "1997-01-01",
+                "siteWeb": "https://assos.utc.fr/pianut/",
+                "president": 
+                { 
+                    "id": 3, 
+                    "prenom": "Léna", 
+                    "nom": "Baillet",
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 122
+                    }
+                },
+                "tresorier": 
+                { 
+                    "id": 4, 
+                    "prenom": "Benjamin", 
+                    "nom": "Missaoui",
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 750
+                    }
+                },
+                "membres": []
+            },
+        "type": "Théâtre",
+        "informations": {
+            "auteur": "Molière",
+            "anneeParution": "1689-01-01",
+            "genre": "Comédie"
+        },
+        "participants": 
+            [
+                {
+                    "role": "Roméo",
+                    "personne":     
+                        { 
+                            "id": 2, 
+                            "prenom": "Rodolphe", 
+                            "nom": "Olsommer",
+                            "type": "etudiant",
+                            "informations": {
+                                "numCIN": 512
+                            }
+                        }
+                },
+                {
+                    "role": "Juliette",
+                    "personne":     
+                        { 
+                            "id": 1, 
+                            "prenom": "Louis", 
+                            "nom": "Greiner",
+                            "type": "etudiant",
+                            "informations": {
+                                "numCIN": 234
+                            }
+                        }
+                    
+                }
+            ]
+    },
+    { 
+        "id": 3, 
+        "duree": "02:00:00", 
+        "association":     
+            { 
+                "nom": "Etuville",
+                "description": "Organisation du gala de l'UTC et de l'Utcéenne", 
+                "categorie": "Evènementiel",
+                "email": "etuville@asso.utc.fr",
+                "dateCreation": "2005-01-01",
+                "siteWeb": "https://assos.utc.fr/etuville/",
+                "president": 
+                { 
+                    "id": 1, 
+                    "prenom": "Louis", 
+                    "nom": "Greiner",
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 234
+                    }
+                },
+                "tresorier": 
+                { 
+                    "id": 4, 
+                    "prenom": "Benjamin", 
+                    "nom": "Missaoui",
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 750
+                    }
+                },
+                "membres": [
+                    { 
+                        "id": 3, 
+                        "prenom": "Léna", 
+                        "nom": "Baillet",
+                        "type": "etudiant",
+                        "informations": {
+                            "numCIN": 122
+                        }
+                    }
+                ]
+            }, 
+        "type": "Concert",
+        "informations": 
+            {
+                "compositeur": "Queen",
+                "anneeParution": "2018-01-01",
+                "genre": "Pop"
+            },
+        "participants": 
+            [
+                {
+                    "role": "Pianiste",
+                    "personne":     
+                        { 
+                            "id": 5, 
+                            "prenom": "Benjamin", 
+                            "nom": "Luissier",
+                            "type": "personnel",
+                            "informations": {
+                                "numCIN": 234,
+                                "statut": "Personnel Technique"
+                            }
+                        }
+                }
+            ]
+    }
+]

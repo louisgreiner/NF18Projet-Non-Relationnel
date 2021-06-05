@@ -2,28 +2,28 @@
     { 
         "nom": "Data Venture", 
         "description": "Organisation d'évènements sur le thème de la data science", 
-        "catégorie": "Educatif",
+        "categorie": "Educatif",
         "email": "dataventure@asso.utc.fr",
-        "dateCréation": "2017-01-01",
+        "dateCreation": "2017-01-01",
         "siteWeb": "https://assos.utc.fr/dataventure/",
-        "président": 
+        "president": 
             { 
                 "id": 2, 
                 "prenom": "Rodolphe", 
                 "nom": "Olsommer",
-                "type" : "etudiant",
-                "attributs_herites" : {
-                    "numCIN" : 512
+                "type": "etudiant",
+                "informations": {
+                    "numCIN": 512
                 }
             },
-        "trésorier": 
+        "tresorier": 
             { 
                 "id": 3, 
                 "prenom": "Léna", 
                 "nom": "Baillet",
-                "type" : "etudiant",
-                "attributs_herites" : {
-                    "numCIN" : 122
+                "type": "etudiant",
+                "informations": {
+                    "numCIN": 122
                 }
             },
         "membres": 
@@ -32,18 +32,18 @@
                     "id": 4, 
                     "prenom": "Benjamin", 
                     "nom": "Missaoui",
-                    "type" : "etudiant",
-                    "attributs_herites" : {
-                        "numCIN" : 750
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 750
                     }
                 },
                 { 
                     "id": 1, 
                     "prenom": "Louis", 
                     "nom": "Greiner",
-                    "type" : "etudiant",
-                    "attributs_herites" : {
-                        "numCIN" : 234
+                    "type": "etudiant",
+                    "informations": {
+                        "numCIN": 234
                     }
                 }
             ]
@@ -51,28 +51,28 @@
     { 
         "nom": "Etuville",
         "description": "Organisation du gala de l'UTC et de l'Utcéenne", 
-        "catégorie": "Evènementiel",
+        "categorie": "Evènementiel",
         "email": "etuville@asso.utc.fr",
-        "dateCréation": "2005-01-01",
+        "dateCreation": "2005-01-01",
         "siteWeb": "https://assos.utc.fr/etuville/",
-        "président": 
+        "president": 
         { 
             "id": 1, 
             "prenom": "Louis", 
             "nom": "Greiner",
-            "type" : "etudiant",
-            "attributs_herites" : {
-                "numCIN" : 234
+            "type": "etudiant",
+            "informations": {
+                "numCIN": 234
             }
         },
-        "trésorier": 
+        "tresorier": 
         { 
             "id": 4, 
             "prenom": "Benjamin", 
             "nom": "Missaoui",
-            "type" : "etudiant",
-            "attributs_herites" : {
-                "numCIN" : 750
+            "type": "etudiant",
+            "informations": {
+                "numCIN": 750
             }
         },
         "membres": [
@@ -80,9 +80,9 @@
                 "id": 3, 
                 "prenom": "Léna", 
                 "nom": "Baillet",
-                "type" : "etudiant",
-                "attributs_herites" : {
-                    "numCIN" : 122
+                "type": "etudiant",
+                "informations": {
+                    "numCIN": 122
                 }
             }
         ]
@@ -90,28 +90,28 @@
     { 
         "nom": "PianUt",
         "description": "Cercle des pianistes disparus", 
-        "catégorie": "Musique",
+        "categorie": "Musique",
         "email": "pianut@asso.utc.fr",
-        "dateCréation": "1997-01-01",
+        "dateCreation": "1997-01-01",
         "siteWeb": "https://assos.utc.fr/pianut/",
-        "président": 
+        "president": 
         { 
             "id": 3, 
             "prenom": "Léna", 
             "nom": "Baillet",
-            "type" : "etudiant",
-            "attributs_herites" : {
-                "numCIN" : 122
+            "type": "etudiant",
+            "informations": {
+                "numCIN": 122
             }
         },
-        "trésorier": 
+        "tresorier": 
         { 
             "id": 4, 
             "prenom": "Benjamin", 
             "nom": "Missaoui",
-            "type" : "etudiant",
-            "attributs_herites" : {
-                "numCIN" : 750
+            "type": "etudiant",
+            "informations": {
+                "numCIN": 750
             }
         },
         "membres": []

@@ -1,0 +1,32 @@
+[ 
+	{
+        "numSalle": 1,
+        "capacite": 200,
+        "numBat": 1,
+        "typeSalle": "Amphithéâtre"
+    },
+	{
+        "numSalle": 2,
+        "capacite": 50,
+        "numBat": 2,
+        "typeSalle": "Salle TD"
+    },
+	{
+        "numSalle": 3,
+        "capacite": 20,
+        "numBat": 2,
+        "typeSalle": "Bureau"
+    },
+	{
+        "numSalle": 4,
+        "capacite": 200,
+        "numBat": 2,
+        "typeSalle": "Amphithéâtre"
+    },
+	{
+        "numSalle": 5,
+        "capacite": 10,
+        "numBat": 5,
+        "typeSalle": "Salle TP"
+    }
+]

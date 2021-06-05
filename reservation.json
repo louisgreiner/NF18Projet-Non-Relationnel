@@ -1,0 +1,156 @@
+[
+    {
+    "date": "2020-01-25",
+    "heure": "19:30:00",
+    "association":
+        { 
+            "nom": "Data Venture", 
+            "description": "Organisation d'évènements sur le thème de la data science", 
+            "categorie": "Educatif",
+            "email": "dataventure@asso.utc.fr",
+            "dateCreation": "2017-01-01",
+            "siteWeb": "https://assos.utc.fr/dataventure/",
+            "president": 
+                { 
+                    "id": 2, 
+                    "prenom": "Rodolphe", 
+                    "nom": "Olsommer",
+                    "type" : "etudiant",
+                    "informations" : {
+                        "numCIN" : 512
+                    }
+                },
+            "tresorier": 
+                { 
+                    "id": 3, 
+                    "prenom": "Léna", 
+                    "nom": "Baillet",
+                    "type" : "etudiant",
+                    "informations" : {
+                        "numCIN" : 122
+                    }
+                },
+            "membres": 
+                [
+                    { 
+                        "id": 4, 
+                        "prenom": "Benjamin", 
+                        "nom": "Missaoui",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 750
+                        }
+                    },
+                    { 
+                        "id": 1, 
+                        "prenom": "Louis", 
+                        "nom": "Greiner",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 234
+                        }
+                    }
+                ]
+        },
+        "salle":
+            {
+                "numSalle": 5,
+                "capacite": 10,
+                "numBat": 5,
+                "typeSalle": "Salle TP"
+            }
+    },
+    {
+        "date": "2020-04-18",
+        "heure": "20:00:00",
+        "association":
+            { 
+                "nom": "Etuville",
+                "description": "Organisation du gala de l'UTC et de l'Utcéenne", 
+                "categorie": "Evènementiel",
+                "email": "etuville@asso.utc.fr",
+                "dateCreation": "2005-01-01",
+                "siteWeb": "https://assos.utc.fr/etuville/",
+                "president": 
+                { 
+                    "id": 1, 
+                    "prenom": "Louis", 
+                    "nom": "Greiner",
+                    "type" : "etudiant",
+                    "informations" : {
+                        "numCIN" : 234
+                    }
+                },
+                "tresorier": 
+                { 
+                    "id": 4, 
+                    "prenom": "Benjamin", 
+                    "nom": "Missaoui",
+                    "type" : "etudiant",
+                    "informations" : {
+                        "numCIN" : 750
+                    }
+                },
+                "membres": [
+                    { 
+                        "id": 3, 
+                        "prenom": "Léna", 
+                        "nom": "Baillet",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 122
+                        }
+                    }
+                ]
+            }, 
+        "salle":
+           {
+                "numSalle": 2,
+                "capacite": 50,
+                "numBat": 2,
+                "typeSalle": "Salle TD"
+            }
+    },
+    {
+        "date": "2020-06-22",
+        "heure": "17:00:00",
+        "association":
+            { 
+                "nom": "PianUt",
+                "description": "Cercle des pianistes disparus", 
+                "categorie": "Musique",
+                "email": "pianut@asso.utc.fr",
+                "dateCreation": "1997-01-01",
+                "siteWeb": "https://assos.utc.fr/pianut/",
+                "president": 
+                    { 
+                        "id": 3, 
+                        "prenom": "Léna", 
+                        "nom": "Baillet",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 122
+                        }
+                    },
+                "tresorier": 
+                    { 
+                        "id": 4, 
+                        "prenom": "Benjamin", 
+                        "nom": "Missaoui",
+                        "type" : "etudiant",
+                        "informations" : {
+                            "numCIN" : 750
+                        }
+                    },
+                "membres": []
+            }, 
+        "salle":
+            {
+                "numSalle": 3,
+                "capacite": 20,
+                "numBat": 2,
+                "typeSalle": "Bureau"
+            }
+    }
+]
+  
