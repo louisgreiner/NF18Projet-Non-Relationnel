@@ -15,8 +15,8 @@
         "date": "2021-03-30", 
         "salle": 
             {
-                "numSalle":2,
-                "capacite":50,
+                "numSalle": 2,
+                "capacite": 50,
                 "numBat": 2,
                 "typeSalle": "Salle TD"
             }

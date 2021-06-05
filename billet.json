@@ -1,0 +1,116 @@
+[
+    {
+        "dateCreation": "2020-04-22",
+        "tarif": 13.30,
+        "categorie": "invitation",
+        "seance":
+        { 
+            "id": 1, 
+            "date": "2021-05-05", 
+            "salle": 
+                {
+                    "numSalle": 1,
+                    "capacite": 200,
+                    "numBat": 1,
+                    "typeSalle": "Amphithéâtre"
+                }
+        }     
+    },
+    {
+        "dateCreation": "2020-06-25",
+        "tarif": 15.00,
+        "categorie": "VIP",
+        "seance": { 
+            "id": 2, 
+            "date": "2021-03-30", 
+            "salle": 
+                {
+                    "numSalle": 2,
+                    "capacite": 50,
+                    "numBat": 2,
+                    "typeSalle": "Salle TD"
+                }
+        }
+    },
+    {
+     "dateCreation":"2021-01-25,
+     "tarif":20.00,
+     "Categorie":"balcon",
+     [
+      { 
+          "id": 3, 
+          "Date": "2021-07-15", 
+          [
+            {
+              "numSalle":3,
+          "capacite":20,
+              "numBat": 2,
+          "typeSalle":"bureau"
+          
+        }
+      ] 
+      }
+     ]
+    },
+    {
+     "dateCreation":"2021-02-03,
+     "tarif":25.00,
+     "Categorie":"invitation",
+     [
+      { 
+          "id": 4, 
+          "Date": "2021-06-13", 
+          [
+            {
+              "numSalle":4,
+          "capacite":200,
+              "numBat": 2,
+          "typeSalle":"amphitheatre"
+          
+        }
+      ] 
+      }
+     ]
+    },
+    {
+     "dateCreation":"2021-02-07,
+     "tarif":40.00,
+     "Categorie":"balcon",
+     [
+      { 
+          "id": 5, 
+          "Date": "2021-04-15", 
+          [
+            {
+              "numSalle":5,
+          "capacite":10,
+              "numBat": 5,
+          "typeSalle":"salle TP"
+          
+        }
+      ] 
+      }
+     ]
+    },
+    {
+     "dateCreation":"2020-07-10,
+     "tarif":20.00
+     "Categorie":"VIP",
+     [
+      { 
+          "id": 3, 
+          "Date": "2021-07-15", 
+          [
+            {
+              "numSalle":3,
+          "capacite":20,
+              "numBat": 2,
+          "typeSalle":"bureau"
+          
+        }
+      ] 
+      }
+     ]
+    },
+  
+  ]
