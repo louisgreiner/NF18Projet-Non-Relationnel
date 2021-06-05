@@ -1,6 +1,72 @@
 [
-    { "id": "1", "prenom": "Louis", "nom": "Greiner" }, 
-    { "id": "2", "prenom": "Rodolphe", "nom": "Olsommer" }, 
-    { "id": "3", "prenom": "Léna", "nom": "Baillet" }, 
-    { "id": "4", "prenom": "Benjamin", "nom": "Missaoui" }
+    { 
+        "nom": "Data Venture", 
+        "description": "Organisation d'évènements sur le thème de la data science", 
+        "catégorie": "Educatif",
+        "email": "dataventure@asso.utc.fr",
+        "dateCréation": "2017-01-01",
+        "siteWeb": "https://assos.utc.fr/dataventure/",
+        "président": 
+            { 
+                "id": 2, 
+                "prenom": "Rodolphe", 
+                "nom": "Greiner",
+                "type" : "etudiant",
+                "attributs_herites" : {
+                    "numCIN" : 512
+                }
+            },
+        "trésorier": 
+            { 
+                "id": 3, 
+                "prenom": "Léna", 
+                "nom": "Baillet",
+                "type" : "etudiant",
+                "attributs_herites" : {
+                    "numCIN" : 122
+                }
+            },
+        "membres": 
+            [
+                { 
+                    "id": 4, 
+                    "prenom": "Benjamin", 
+                    "nom": "Missaoui",
+                    "type" : "etudiant",
+                    "attributs_herites" : {
+                        "numCIN" : 750
+                    }
+                },
+                { 
+                    "id": 1, 
+                    "prenom": "Louis", 
+                    "nom": "Greiner",
+                    "type" : "etudiant",
+                    "attributs_herites" : {
+                        "numCIN" : 234
+                    }
+                }
+            ]
+    }, 
+    { 
+        "nom": "Etuville",
+        "description": "Organisation du gala de l'UTC et de l'Utcéenne", 
+        "catégorie": "Evènementiel",
+        "email": "etuville@asso.utc.fr",
+        "dateCréation": "2005-01-01",
+        "siteWeb": "https://assos.utc.fr/etuville/",
+        "président": "zedf",
+        "trésorier": "qsdfg",
+        "membres": [
+            { 
+                "id": 4, 
+                "prenom": "Benjamin", 
+                "nom": "Missaoui",
+                "type" : "etudiant",
+                "attributs_herites" : {
+                    "numCIN" : 750
+                }
+            }
+        ]
+    }
 ]
